@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cronos", "Cronos.csproj", "{FF23289D-6088-425A-BAB4-3F527062A62F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{31F0DF29-CC20-4B40-A8CC-F12852CD855B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CronosDB", "CronosDB\CronosDB.sqlproj", "{D1CAFB1F-DD82-4D63-AD5F-911C7B21F904}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF23289D-6088-425A-BAB4-3F527062A62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF23289D-6088-425A-BAB4-3F527062A62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF23289D-6088-425A-BAB4-3F527062A62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF23289D-6088-425A-BAB4-3F527062A62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F0DF29-CC20-4B40-A8CC-F12852CD855B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F0DF29-CC20-4B40-A8CC-F12852CD855B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F0DF29-CC20-4B40-A8CC-F12852CD855B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F0DF29-CC20-4B40-A8CC-F12852CD855B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CAFB1F-DD82-4D63-AD5F-911C7B21F904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CAFB1F-DD82-4D63-AD5F-911C7B21F904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CAFB1F-DD82-4D63-AD5F-911C7B21F904}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D1CAFB1F-DD82-4D63-AD5F-911C7B21F904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CAFB1F-DD82-4D63-AD5F-911C7B21F904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CAFB1F-DD82-4D63-AD5F-911C7B21F904}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA320CD7-98CE-4022-A750-19AD280B8F49}
+	EndGlobalSection
+EndGlobal
