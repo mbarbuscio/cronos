@@ -44,7 +44,7 @@ namespace Cronos.Services
             return this.ExecuteAsync(cancellationToken);
         }
 
-        private async Task RunJobs()
+        public async Task RunJobs()
         {
             var count = Interlocked.Increment(ref executionCount);
 
